@@ -37,39 +37,46 @@ header {
 
 .contenido1 {
     display: flex;
-    flex-flow: wrap;
 }
+.contenido1 img {
+    width: 100%;
+    float: right;
+}
+
 .caja1 {
     flex-flow: wrap;
     border: 1px solid black;
-    width: 40%;
+    width: 70%;
     text-align: center;
     margin: 60px;
+    margin-top: 8%;
     margin-left: 80px;
+    background-color: rgba(255, 255, 255, 0.336);
+
 }
     .texto {
-        width: 90%;
-        font-size: 25px;
-        text-align: justify;
+        width: 95%;
+        font-size: 22px;
+        text-align: center;
     }
     .caja1 div img {
         width: 100%;
+        margin-top: 5%;
+        height: 550px;
     }
 
-.caja2 div img { /*NO FUNCIONA*/
-    width: 10%;
-}
+
     
 .contenido2 {
     display: flex;
-    flex-flow: wrap;
+    width: 100%;
 }
     .form {
         border: 1px solid black;
-        width: 35%;
+        width: 65%;
         padding: 25px;
-        margin-left: 55%;
-        text-align: justify;
+        text-align: center;
+        margin-right: 5%;
         margin-bottom: 5%;
         background: rgba(177, 25, 25, 0.63);
     }
@@ -77,7 +84,7 @@ header {
 #form div{
     padding: 8px;
     background: rgba(255, 255, 255, 0.336);
-    text-align: justify;
+    text-align: start;
     border-radius: 10px;
 }
 
@@ -106,19 +113,28 @@ header {
     }
     #form textarea {
         width: 100%;
-        height: 50px;
+        height: 40px;
         padding: 10px;
         border: none;
         box-sizing: border-box;
         border-radius: inherit;
     }
     
-.contenido div img {
-     width: 30px;
- }
+
+
+.contenido2 img {
+    width: 55%;
+    margin-left: 5%;  
+    float: inline-end;
+}
+.contenido2 div img {
+    width: 85%; 
+}
+        
+
 
 footer{
-    width: 100%;
+    width: 94%;
     padding: 3%;
     background-color: rgba(177, 25, 25, 0.829);
  }
