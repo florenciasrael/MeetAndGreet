@@ -26,66 +26,61 @@
         <section class="contenido1">
             <div class="caja1">
                 <div class="texto">
-                    <p>Estas participando por un almuerzo en la "Mesa de Paulina" el cual incluye entrada, plato principal y postre hecho por Paulina. Las fechas para participar son el Viernes 27, Sabado 28 y Domingo 29 y el sorteo finaliza el Domingo 15 de Agosto, dia en el cual nos contactaremos con las ganadoras.</p>
-                     <p>¡Te invitamos a que mires el menú antes de completar el formulario!</p>
+                    <p> Viernes 27, Sábado 28 y Domingo 29 </p>
+                    <p> Participá por un almuerzo hecho por Paulina!</p>
+                    <p>¡Conocé el menú y completá el formulario!</p>
+                    <p2>   El sorteo finaliza el Domingo 15 de Agosto, día en el cual nos contactaremos con las ganadoras.</p2>
+                     
                 </div>
                 <div class="img">
                     <img src="menu.jpg" alt="">
                 </div>
             </div> 
             <div class="caja2">
-                <img src="foto paulina.png" alt="">
+                <img src="paulina.png" alt="">
             </div>
         </section> 
 
         <section class="contenido2"> 
             <div class="img">
-                <img src="paulina cuchillos.png" alt="">
+                <img src="paulinacuchillos.png" alt="">
             </div>
             <div class="form">
-                 <h2>Completá el formulario, participá y ganá!</h2>
+                 <h2>¡Completá el formulario, participá y ganá!</h2>
             <hr>
              
                  <form action="florsolsrael02@gmail.com" method="POST" id="form">
                     <div>
-                        <span>Nombre y Apellido</span>
-                        <input type="text" name="nombre">
+                        <input type="text" name="nombre" required placeholder="Nombre y Apellido">
                     </div>
 
                     <div>
-                        <span>E-mail</span>
-                        <input type="email" name="email">
+                        <input type="email" name="email" required placeholder="E-mail">
                     </div>
 
                     <div>
-                        <span>N° de Telefono</span>
-                        <input type="text" name="telefono">
+                        <input type="text" name="telefono" required placeholder="N° de Teléfono">
                     </div>
 
                     <div>
-                        <span>Fecha de Nacimiento</span>
-                        <input type="date" name="nacimiento" id="">
+                        <input type="date" name="nacimiento" id=""  required placeholder="Fecha de Nacimiento">
                     </div>
 
                     <div>
-                        <span>DNI</span>
-                        <input type="text" name="dni">
+                        <input type="text" name="dni" required placeholder="DNI">
                     </div>
 
                     <div>
-                        <span>¿Qué dia podrias asistir?</span>
                         <select name="dia" id="">
                             <option value="vie">Viernes 27/8</option>
                             <option value="sab">Sabado 28/8</option>
                             <option value="dom">Domingo 29/8</option>
-                            <option selected>Seleccione Día</option>
+                            <option selected>¿Qué día podrías asistir?</option>
                         </select>
                     </div>
 
                     <div>
-                        <span>¿Tenes alguna restricción alimenticia? Recordá ver el menú antes de enviar!</span>
-                        <br>
-                        <textarea name="mensaje" id="" ></textarea>
+                        <textarea name="mensaje" id="" required placeholder="¿Tenes alguna restricción alimenticia? ¡Recordá ver el menú antes de enviar!"></textarea>
                      </div>
                     <input type="submit" value="Enviar">
                  </form>
@@ -97,7 +92,7 @@
         <footer>
            <p2> Bases y Condiciones: Para poder participar del sorteo por un almuerzo (Mesota) con Paulina Cocina es necesario cumplor con los siguientes requisitos. Ser de CABA, tener mas de 18 años (Si sos menor deberas poner el telefono de un adulto responsable y el mismo deberá de firmar una autorización). Sorteo vigente del 01/08/2021 al 15/08/2021</p2>
             
-           &copy; Derechos Reservados by Florencia Sol Srael
+        <p2>&copy; Derechos Reservados by Florencia Sol Srael </p2>
         </footer>
     
 </body>
