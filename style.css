@@ -90,6 +90,7 @@ header {
         margin-right: 5%;
         margin-bottom: 5%;
         background: rgba(177, 25, 25, 0.63);
+        box-shadow: 0 0 10px rgb(177, 25, 25)
     }
 
 #form div{
