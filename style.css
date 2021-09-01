@@ -62,10 +62,11 @@ header {
 }    
 .texto p{
         width: 90%;
-        font-size: 28px;
+        font-size: 35px;
         text-align: center;
         margin: 5%;
         margin-right: 10%;
+        line-height: 39px;
     }
     .texto p2 {
         font-size: 10px;
@@ -148,7 +149,9 @@ header {
     float: inline-end;
 }
 .contenido2 div img {
-    width: 85%; 
+    width: 85%;
+    margin-top: 10%;
+    margin-left: 10%;
 }
         
 
