@@ -1,7 +1,7 @@
 * {
     margin: 0;
     padding: 0;
-    
+    letter-spacing: 1px;
     font-family: 'Vibur', cursive;
     
 }
@@ -24,14 +24,17 @@ header {
     header h1 {
         font-size: 120px;
         margin-top: 10px; 
+        letter-spacing: 18px;
     }
     header h2 {
         font-size: 40px;
         padding: 5px;
+        letter-spacing: 3px;
     }
     header p {
         font-size: 30px;
         padding: 5px;
+        letter-spacing: 3px;
         
     }
 
